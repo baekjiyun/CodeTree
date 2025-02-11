@@ -1,3 +1,3 @@
 const fs = require("fs");
-let input = fs.readFileSync(0).toString();
-console.log("Your score is %s point.",input);
+let input = Number(fs.readFileSync(0).toString());
+console.log("Your score is %d point.",input);
