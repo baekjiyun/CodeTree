@@ -3,18 +3,20 @@ let input = fs.readFileSync(0).toString().split(" ");
 let a = Number(input[0]);
 let b = Number(input[1]);
 
+let c, d;
+
 if (a<b){
-    let c = 1;
+    c = 1;
 }
 else{
-    let c = 0;
+    c = 0;
 }
 
 if (a===b){
-    let d = 1;
+    d = 1;
 }
 else{
-    let d = 0;
+    d = 0;
 }
 
 console.log(c,d);
