@@ -6,7 +6,7 @@ for(let i = 1; i<=n;i++){
         sum+=i;
     }
 }
-if(summ===n){
+if(sum===n){
     console.log("P");
 }
 else{
