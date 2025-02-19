@@ -4,7 +4,7 @@ let result = "";
 let a = Number(input[0]);
 let b = Number(input[1]);
 
-while(a<b){
+while(a<=b){
     result += (a+" ");
     a+=2;
 }
